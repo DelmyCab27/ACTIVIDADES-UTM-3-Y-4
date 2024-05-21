@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+    background-color: #ffe4e1;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    height: 100px;
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: aquamarine;
+    padding: 20px;
+    position: relative;
+    
+}
+
+header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: radial-gradient(white 10%, transparent 20%);
+    background-size: 30px 20px;
+}
+
+
+header h1 {
+    margin: 0;
+    font-size: 30px;
+    color: black;
+    position: relative;
+}
+
+header p {
+    margin: 5px 0 20px;
+    color: #666;
+    
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+section h2 {
+    height: 30px;
+    text-align: center;
+    background-color: #328ae9;
+    color: #fff;
+    padding: 10px;
+    margin: 0 -20px 10px;
+    font-size: 23px;
+}
+
+.personal-info,
+.experience,
+.education,
+.language,
+.other-languages,
+.technical-skills,
+.driving-license,
+.additional-info {
+    padding: 10px 20px;
+}
+
+.photo {
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin-right: 30px;
+}
+
+.photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.details p {
+    margin: 8px 0;
+}
+
+footer {
+    text-align: center;
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+    margin-top: 20px;
+    font-size: 15px;
+    color: #666;
+}

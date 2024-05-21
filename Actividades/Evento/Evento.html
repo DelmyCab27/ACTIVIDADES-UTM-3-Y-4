@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro a evento DEMO</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Registro a evento DEMO</h1>
+        <p>Llene los siguientes datos para registrarse al evento.</p>
+        
+        <div class="event-info">
+            <p><strong>Fecha:</strong> Sábado, 24 de abril 2010 @ 10:15 AM</p>
+            <p><strong>Dirección:</strong></p>
+            <p>Tampa Marriott Waterside Hotel</p>
+            <p>700 South Florida Avenue</p>
+            <p>Tampa, FL 33602</p>
+        </div>
+
+        <div class="map">
+            <iframe 
+                src="https://maps.google.com/maps?q=Tampa%20Marriott%20Waterside%20Hotel%20700%20South%20Florida%20Avenue%20Tampa,%20FL%2033602&t=&z=13&ie=UTF8&iwloc=&output=embed" 
+                frameborder="0" 
+                style="border:0" 
+                allowfullscreen>
+            </iframe>
+        </div>
+
+        <form action="#" method="post">
+            <label for="nombre">Nombre completo *</label>
+            <input type="text" id="nombre" name="nombre" required>
+            
+            <label for="apellido">Apellido *</label>
+            <input type="text" id="apellido" name="apellido" required>
+        </form>
+    </div>
+</body>
+</html>
